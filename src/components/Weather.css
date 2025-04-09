@@ -1,0 +1,96 @@
+/* Full-Screen Overlay with Background Image */
+.full-screen-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('cloudcc.jpg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire overlay */
+    background-position: center; /* Centers the image */
+    opacity: 0.5; /* Adjust opacity as needed */
+    z-index: 1; /* Ensure this is beneath other elements */
+}
+
+/* Weather Component Container */
+.weather-container {
+    position: relative;
+    place-self: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, rgba(47, 70, 128, 0.7), rgba(80, 10, 228, 0.7)), url('sea.webp'); /* Keep if you want a gradient over the image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2; /* Ensure this is above the overlay */
+}
+
+/* Search Bar Styles */
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.search-bar input {
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding: 25px;
+    color: #626262;
+    background: #ebfffc;
+    font-size: 18px;
+}
+
+.search-bar img {
+    width: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    background: #ebfffc;
+    cursor: pointer;
+}
+
+/* Weather Display Styles */
+.weather_icon {
+    width: 150px;
+    margin: 30px 0;
+}
+
+.temperature {
+    color: white;
+    font-size: 80px;
+    line-height: 1;
+}
+
+.location {
+    color: #fff;
+    font-size: 40px;
+}
+
+.weather-data {
+    width: 100%;
+    margin-top: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-data .col {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 22px;
+}
+
+.weather-data .col span {
+    display: block;
+    font-size: 16px;
+}
+
+.weather-data .col img {
+    width: 26px;
+    margin-top: 10px;
+}
