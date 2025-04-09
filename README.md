@@ -1,12 +1,43 @@
-# React + Vite
+# 🌤️ Your Naturely App – Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Assignment Overview
+You are tasked with building and deploying a **Weather Dashboard Web App** using **React.js**. The app should allow users to search for any city and view its live weather information using data fetched from the **OpenWeatherMap API**.
 
-Currently, two official plugins are available:
+### The goal is to evaluate your ability to:
+- Write clean and modular React code
+- Integrate and display dynamic data from APIs
+- Handle loading and error states gracefully
+- Build a responsive, user-friendly UI
+- Deploy a live web application
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧱 Project Requirements
 
-## Expanding the ESLint configuration
+### 🖥️ 1. User Interface
+Build a clean, modern, and responsive UI with:
+- A search bar for users to enter a city name
+- A submit button or search-on-enter behavior
+- A weather info card showing:
+  - City Name
+  - Current Temperature (°C)
+  - Weather Condition (e.g., Sunny, Rainy, Snow)
+  - Humidity (%)
+  - Wind Speed (km/h)
+  - Weather Icon (use the icon provided by the API)
+- Show loading state while data is being fetched
+- Show error state if:
+  - The city name is invalid
+  - The API fails to respond
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔌 2. API Integration
+Use the **OpenWeatherMap Current Weather API**:
+
+🔗 **API URL:**
+## 📬 Submission Format
+Send us the following in a Google form:
+- ✅ Live Deployed App URL
+- ✅ GitHub Repository Link
+- ✅ (Optional) Screenshots or a short Loom video of your app
+- ✅ README.md file with:
+  - Tech stack used
+  - Setup instructions
+  - API integration details (mention rate limits, keys, etc.
